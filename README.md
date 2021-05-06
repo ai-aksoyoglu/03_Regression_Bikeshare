@@ -19,7 +19,7 @@ __10) Calculate Test Score:__ Because this is a regression problem, we are not e
 <img src="https://render.githubusercontent.com/render/math?math=\sqrt{\frac{1}{n} \sum_{i=1}^n (\log(p_i + 1) - \log(a_i+1))^2 }"/>
 
 ```math
-\sum_{i=1}^n
+$\sum_{i=1}^n$
 ```
 
 Benchmarks:  

@@ -17,6 +17,7 @@ __5)-9) Feature Engineering (FE), Train Model, Optimize Hyperparameters/Cross-Va
 __10) Calculate Test Score:__ Because this is a regression problem, we are not evaluating our models using accuracy! Submissions are evaluated on the Root Mean Squared Logarithmic Error RMSLE. The RMSLE is calculated as
 
 <img src="https://render.githubusercontent.com/render/math?math=\sqrt{\frac{1}{n} \sum_{i=1}^n (\log(p_i + 1) - \log(a_i+1))^2 }">  
+
 Benchmarks:  
 - RMSLE < 0.5, is excellent! ⭐⭐⭐   
 - RMSLE < 0.75 is also quite solid ⭐⭐   

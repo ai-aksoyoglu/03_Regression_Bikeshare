@@ -15,7 +15,7 @@ __4) Exploratory Data Analysis (EDA)__
 __5)-9) Feature Engineering (FE), Train Model, Optimize Hyperparameters/Cross-Validation:__ Optimize the model iteratively, select features, try different regressors (e.g. Linear Regression, Random Forest Regressor, SVR)
 
 __10) Calculate Test Score:__ Because this is a regression problem, we are not evaluating our models using accuracy! Submissions are evaluated on the Root Mean Squared Logarithmic Error RMSLE. The RMSLE is calculated as
-
+ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 $\sqrt{\frac{1}{n} \sum_{i=1}^n (\log(p_i + 1) - \log(a_i+1))^2 }$  
 Benchmarks:
 - RMSLE < 0.5, is excellent! ⭐⭐⭐ 

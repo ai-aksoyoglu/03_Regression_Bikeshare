@@ -1,0 +1,13 @@
+https://www.kaggle.com/c/bike-sharing-demand/data
+
+Download the Capital Bike Share Dataset from Kaggle and explore the data in pandas.
+
+Questions for data exploration:
+
+Which factors contribute most to the number of bicycles being checked out over the course of a given day?
+
+How much of an impact does weather have on demand?
+
+How does the behavior of casual users differ from subscribers?
+
+The value in the count column is the one you need to predict. Beware that combining the columns casual and registerd results in the column count. Therefore you should exclude those columns from your model!
